@@ -7,4 +7,9 @@ var clousure = {
 }
 clousure()
 
-//
+// Exercício 2 - Escreva uma closure que recebe dois inteiros e retorna a soma deles. Atribua a closure a uma variável e então chame a closure.
+
+var clousureSoma: (Int, Int) -> Int = { (x,y) in
+    return x + y
+}
+clousureSoma(1,4)
