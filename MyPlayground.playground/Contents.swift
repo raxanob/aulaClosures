@@ -18,3 +18,13 @@ clousureSoma(1,4)
 
 var vetorNumb = [10, 3, 5, 2, 8, 7]
 let vetorInOrden = vetorNumb.sorted(by: <)
+
+// Exercício 4 - Escreva uma função que recebe uma closure como entrada e chama esta closure.
+func funcao (clousure: (Int) -> Int) {
+    let result = clousure(42)
+    print(result)
+}
+funcao(clousure: { number in
+    print(number)
+    return 101
+})
