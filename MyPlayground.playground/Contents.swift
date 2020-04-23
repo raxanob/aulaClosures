@@ -13,3 +13,8 @@ var clousureSoma: (Int, Int) -> Int = { (x,y) in
     return x + y
 }
 clousureSoma(1,4)
+
+// Exercício 3 - Ordene o vetor [10, 3, 5, 2, 8, 7] usando uma closure e o método sorted(by:)
+
+var vetorNumb = [10, 3, 5, 2, 8, 7]
+let vetorInOrden = vetorNumb.sorted(<)
